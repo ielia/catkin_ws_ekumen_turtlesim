@@ -1,0 +1,5 @@
+float32 linear_speed
+float32 angular_speed
+---
+float32 previous_linear_speed
+float32 previous_angular_speed

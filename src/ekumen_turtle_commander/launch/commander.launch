@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="turtlesim" name="turtlesim_node" type="turtlesim_node"/>
+  <node pkg="ekumen_turtle_commander" name="polygon" type="polygon_server.py" output="screen"/>
+</launch>
