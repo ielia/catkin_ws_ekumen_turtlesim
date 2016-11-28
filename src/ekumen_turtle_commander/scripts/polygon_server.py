@@ -119,7 +119,7 @@ class PolygonActionServer(object):
         theta_diff = self.normalize_angle(self.theta_from_y0(pose, next_point) - pose.theta)
         distance_diff = self.distance(pose, next_point)
 
-        self._status.percentage_completed = (distances[last_index + 1] - distance_diff) / self._status.total_distance
+        self._status.percentage_completed = 100 * (distances[last_index + 1] - distance_diff) / self._status.total_distance
 
         velocity = Twist()
         # adjust velocity

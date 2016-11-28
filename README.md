@@ -2,6 +2,7 @@
 
 ## Pre-requisites
 * ROS Indigo or above installed.
+* Rosbridge installed ([](http://wiki.ros.org/rosbridge_suite/Tutorials/RunningRosbridge)).
 * ROS top-level environment variables on the terminals to use.
 * Python 2.7+ installed.
 * Meteor installed.
