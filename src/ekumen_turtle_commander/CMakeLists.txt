@@ -182,6 +182,7 @@ install(PROGRAMS
 ## Mark other files for installation (e.g. launch and bag files, etc.)
 install(FILES
   launch/commander.launch
+  launch/rosbridge_websocket.launch
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
