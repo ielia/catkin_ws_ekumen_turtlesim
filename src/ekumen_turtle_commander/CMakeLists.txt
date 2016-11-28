@@ -161,6 +161,7 @@ install(PROGRAMS
   scripts/polygon_server.py
   scripts/resume.py
   scripts/set_speed.py
+  scripts/star_1turtle.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

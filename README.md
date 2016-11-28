@@ -51,3 +51,10 @@ Resume:
 rosrun ekumen_turtle_commander resume.py
 ```
 
+### Drawing Stars Through PolygonActionServer
+```bash
+cd ${POLY_CATKIN_WS}
+source install/setup.sh
+rosrun ekumen_turtle_commander star_1turtle.py <#vertices> <period> <radius>
+```
+
