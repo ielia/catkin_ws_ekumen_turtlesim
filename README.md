@@ -27,8 +27,9 @@ roslaunch ekumen_turtle_commander commander.launch
 ```bash
 cd ${POLY_CATKIN_WS}
 source install/setup.sh
-rosrun ekumen_turtle_commander polygon_client.py
+rosrun ekumen_turtle_commander polygon_client.py <polygon filename>
 ```
+There are some example files under `src/ekumen_turtle_commander/polygon_files`.
 
 ### Setting Turtle Speed in PolygonActionServer
 ```bash

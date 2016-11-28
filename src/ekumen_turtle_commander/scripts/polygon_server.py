@@ -12,7 +12,7 @@ from ekumen_turtle_commander.srv import Pause, PauseResponse, Speed, SpeedRespon
 
 class PolygonActionServer(object):
     _linear_error_tolerance = 0.0001
-    _angular_error_tolerance = 0.001
+    _angular_error_tolerance = 0.0005
     _angular_scale = 6.0
     _linear_scale = 6.0
 
