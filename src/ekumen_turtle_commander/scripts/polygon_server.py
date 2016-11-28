@@ -76,6 +76,9 @@ class PolygonActionServer(object):
 
     # TODO: Research NumPy (or similar): https://docs.scipy.org/doc/numpy/reference/routines.array-manipulation.html
     # TODO: It would probably make sense to move this to the Status class. Figure this out.
+    # This method relativises the (unreached) points from the current turtle position.
+    # To use absolute coordinates, just do:
+    #     self._status.absolute_points = self._goal.polygon.points
     def init_absolute_points(self, pose):
         goal_points = self._goal.polygon.points
         abs_points = self._status.absolute_points
