@@ -58,3 +58,7 @@ source install/setup.sh
 rosrun ekumen_turtle_commander star_1turtle.py <#vertices> <period> <radius>
 ```
 
+## Known bugs and issues
+* If requested points outside TurtleSim viewport, it won't be able to finish.
+* Unit testing is missing. I haven't been able to figure out the way of adding it.
+* Missing Meteor server.
