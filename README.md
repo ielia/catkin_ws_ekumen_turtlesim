@@ -1,8 +1,10 @@
 # Ekumen TurtleSim Challenge
 
 ## Pre-requisites
-* Having ROS Indigo or above installed.
-* Having ROS top-level environment variables on the terminals to use.
+* ROS Indigo or above installed.
+* ROS top-level environment variables on the terminals to use.
+* Python 2.7+ installed.
+* Meteor installed.
 
 ## Installation
 ```bash
